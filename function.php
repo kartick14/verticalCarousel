@@ -1,3 +1,4 @@
+<?php
 function cycle($first_value, $values = '*') {
   // keeps up with all counters
   static $count = array();

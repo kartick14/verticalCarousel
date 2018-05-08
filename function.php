@@ -1,4 +1,6 @@
 <?php
+// Take from http://baylorrae.com/creating-a-cycle-function-in-php
+
 function cycle($first_value, $values = '*') {
   // keeps up with all counters
   static $count = array();
